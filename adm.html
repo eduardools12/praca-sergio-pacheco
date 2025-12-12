@@ -1,0 +1,261 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard - Praça Municipal</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;800&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="adm.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="container-fluid">
+                <div class="logo">📊 Dashboard Administrativo</div>
+                <ul class="nav-links ms-auto">
+                    <li><a href="index.html" class="nav-link">Voltar ao Site</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <div class="dashboard-header">
+        <h1>🌳 Praça Sergio Pacheco</h1>
+        <p>Monitoramento em tempo real | Última atualização: 07/11/2025 14:30</p>
+    </div>
+
+    <div class="container">
+        <div class="row g-4 mb-4">
+            <div class="col-md-4">
+                <div class="card dashboard-card h-100">
+                    <div class="card-title">
+                        <img src="sunny_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.png" alt="sol" class="dashboard-icon">
+                        Previsão do Tempo
+                    </div>
+                    <div class="weather">
+                        <div class="weather-icon">☁️</div>
+                        <div class="weather-info">
+                            <div class="temperature">28°C</div>
+                            <div class="weather-desc">Parcialmente nublado</div>
+                            <div class="weather-desc">Umidade: 65%</div>
+                            <div class="weather-desc">Vento: 12 km/h</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card dashboard-card h-100">
+                    <div class="card-title">
+                        <img src="groups_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.png" alt="pessoas" class="dashboard-icon">
+                        Fluxo pela praça
+                    </div>
+                    <div class="stat-box">
+                        <div class="stat-value">487</div>
+                        <div class="stat-label">Pessoas na praça agora</div>
+                    </div>
+                    <div class="metric-text text-center">
+                        <span class="metric-positive">↑ 23%</span> em relação à última hora
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card dashboard-card h-100">
+                    <div class="card-title">
+                        <img src="table_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.png" alt="tabela" class="dashboard-icon">
+                        Pico de movimento
+                    </div>
+                    <div class="stat-box">
+                        <div class="stat-value">1.254</div>
+                        <div class="stat-label">Maior fluxo registrado às 18:30</div>
+                    </div>
+                    <div class="metric-text text-center">
+                        Média diária: <strong>892 pessoas</strong>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row g-4 mb-4">
+            <div class="col-12">
+                <div class="card dashboard-card">
+                    <div class="card-title">
+                        <img src="acute_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.png" alt="grafico" class="dashboard-icon">
+                        Horários Mais Movimentados (Última Semana)
+                    </div>
+                    <div class="bar-chart">
+                        <div class="bar" style="height: 45%;">
+                            <div class="bar-value">420</div>
+                            <div class="bar-label">06h-09h</div>
+                        </div>
+                        <div class="bar" style="height: 65%;">
+                            <div class="bar-value">680</div>
+                            <div class="bar-label">09h-12h</div>
+                        </div>
+                        <div class="bar" style="height: 55%;">
+                            <div class="bar-value">550</div>
+                            <div class="bar-label">12h-15h</div>
+                        </div>
+                        <div class="bar" style="height: 85%;">
+                            <div class="bar-value">920</div>
+                            <div class="bar-label">15h-18h</div>
+                        </div>
+                        <div class="bar" style="height: 100%;">
+                            <div class="bar-value">1.120</div>
+                            <div class="bar-label">18h-21h</div>
+                        </div>
+                        <div class="bar" style="height: 35%;">
+                            <div class="bar-value">280</div>
+                            <div class="bar-label">21h-00h</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row g-4 mb-4">
+            <div class="col-md-6">
+                <div class="card dashboard-card h-100">
+                    <div class="card-title">
+                        <img src="child_care_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.png" alt="crianca" class="dashboard-icon">
+                        Distribuição por Idade
+                    </div>
+                    <div class="table-responsive">
+                        <table class="table table-hover align-middle mb-0">
+                            <thead class="table-gradient">
+                                <tr>
+                                    <th>Faixa Etária</th>
+                                    <th>Quantidade</th>
+                                    <th>%</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>0-12 anos</td>
+                                    <td><strong>156</strong></td>
+                                    <td><span class="badge bg-primary">18%</span></td>
+                                </tr>
+                                <tr>
+                                    <td>13-17 anos</td>
+                                    <td><strong>98</strong></td>
+                                    <td><span class="badge bg-info">11%</span></td>
+                                </tr>
+                                <tr>
+                                    <td>18-35 anos</td>
+                                    <td><strong>287</strong></td>
+                                    <td><span class="badge bg-success">33%</span></td>
+                                </tr>
+                                <tr>
+                                    <td>36-59 anos</td>
+                                    <td><strong>245</strong></td>
+                                    <td><span class="badge bg-warning">28%</span></td>
+                                </tr>
+                                <tr>
+                                    <td>60+ anos</td>
+                                    <td><strong>87</strong></td>
+                                    <td><span class="badge bg-secondary">10%</span></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="card dashboard-card h-100">
+                    <div class="card-title">
+                        <img src="transgender_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.png" alt="sexo" class="dashboard-icon">
+                        Distribuição por Sexo
+                    </div>
+                    <div class="pie-chart">
+                        <div class="pie"></div>
+                        <div class="legend">
+                            <div class="legend-item">
+                                <div class="legend-color" style="background: #667eea;"></div>
+                                <span><strong>Feminino:</strong> 438 (50%)</span>
+                            </div>
+                            <div class="legend-item">
+                                <div class="legend-color" style="background: #764ba2;"></div>
+                                <span><strong>Masculino:</strong> 350 (40%)</span>
+                            </div>
+                            <div class="legend-item">
+                                <div class="legend-color" style="background: #f093fb;"></div>
+                                <span><strong>Não informado:</strong> 85 (10%)</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row g-4 mb-5">
+            <div class="col-12">
+                <div class="card dashboard-card">
+                    <div class="card-title">
+                        <img src="celebration_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.png" alt="festa" class="dashboard-icon">
+                        Eventos Realizados (Últimos 30 dias)
+                    </div>
+                    <div class="events-list">
+                        <div class="event-item">
+                            <div class="event-title">🎵 Festival de Música ao Ar Livre</div>
+                            <div>📅 Data: 28/10/2025 | ⏰ Horário: 18h - 22h</div>
+                            <div class="event-stats">
+                                <span>👥 Total: <strong>2.847 pessoas</strong></span>
+                                <span>👨 Masculino: <span class="badge bg-info">45%</span></span>
+                                <span>👩 Feminino: <span class="badge bg-danger">55%</span></span>
+                                <span>📊 Idade média: <strong>28 anos</strong></span>
+                            </div>
+                        </div>
+
+                        <div class="event-item">
+                            <div class="event-title">🎨 Feira de Artesanato Local</div>
+                            <div>📅 Data: 21/10/2025 | ⏰ Horário: 09h - 17h</div>
+                            <div class="event-stats">
+                                <span>👥 Total: <strong>1.523 pessoas</strong></span>
+                                <span>👨 Masculino: <span class="badge bg-info">38%</span></span>
+                                <span>👩 Feminino: <span class="badge bg-danger">62%</span></span>
+                                <span>📊 Idade média: <strong>42 anos</strong></span>
+                            </div>
+                        </div>
+
+                        <div class="event-item">
+                            <div class="event-title">🧘 Yoga Coletivo - Manhã Zen</div>
+                            <div>📅 Data: 14/10/2025 | ⏰ Horário: 07h - 09h</div>
+                            <div class="event-stats">
+                                <span>👥 Total: <strong>342 pessoas</strong></span>
+                                <span>👨 Masculino: <span class="badge bg-info">30%</span></span>
+                                <span>👩 Feminino: <span class="badge bg-danger">70%</span></span>
+                                <span>📊 Idade média: <strong>35 anos</strong></span>
+                            </div>
+                        </div>
+
+                        <div class="event-item">
+                            <div class="event-title">♟️ Campeonato de Xadrez</div>
+                            <div>📅 Data: 07/10/2025 | ⏰ Horário: 14h - 19h</div>
+                            <div class="event-stats">
+                                <span>👥 Total: <strong>187 pessoas</strong></span>
+                                <span>👨 Masculino: <span class="badge bg-info">68%</span></span>
+                                <span>👩 Feminino: <span class="badge bg-danger">32%</span></span>
+                                <span>📊 Idade média: <strong>45 anos</strong></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<footer>
+    <div class="container">
+        <p>&copy; 2025 - Praça Sérgio Pacheco</p>
+</div>
+</footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>

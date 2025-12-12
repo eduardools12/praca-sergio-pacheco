@@ -1,0 +1,255 @@
+
+.dashboard-header {
+            background: #a54062;
+            padding: 40px 20px;
+            text-align: center;
+            color: #dfbeac;
+            margin-bottom: 40px;
+        }
+
+        .dashboard-header h1 {
+            font-size: 2.5rem;
+            font-weight: 900;
+            margin-bottom: 10px;
+        }
+
+        .dashboard-header p {
+            font-size: 1rem;
+            opacity: 0.9;
+        }
+
+        .dashboard-icon {
+            width: 24px;
+            height: 24px;
+            margin-right: 8px;
+            vertical-align: middle;
+        }
+
+        .stat-box {
+            text-align: center;
+            padding: 20px;
+        }
+
+        .stat-value {
+            font-size: 3rem;
+            font-weight: 900;
+            color: #dfbeac;
+            margin-bottom: 10px;
+        }
+
+        .stat-label {
+            font-size: 1rem;
+            color: #dfbeac;
+            opacity: 0.9;
+        }
+
+        .weather {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .weather-icon {
+            font-size: 4rem;
+        }
+
+        .weather-info {
+            flex: 1;
+        }
+
+        .temperature {
+            font-size: 2.5rem;
+            font-weight: 900;
+            color: #dfbeac;
+            margin-bottom: 5px;
+        }
+
+        .weather-desc {
+            color: #dfbeac;
+            font-size: 0.95rem;
+            margin-bottom: 3px;
+        }
+
+        .bar-chart {
+            display: flex;
+            align-items: flex-end;
+            justify-content: space-around;
+            height: 300px;
+            padding: 20px;
+            gap: 10px;
+        }
+
+        .bar {
+            flex: 1;
+            background: linear-gradient(to top, #431927, #be6c87);
+            border-radius: 8px 8px 0 0;
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            align-items: center;
+            transition: transform 0.3s;
+            min-height: 50px;
+        }
+
+        .bar:hover {
+            transform: translateY(-10px);
+        }
+
+        .bar-value {
+            color: #dfbeac;
+            font-weight: 700;
+            font-size: 1rem;
+            margin-bottom: 10px;
+        }
+
+        .bar-label {
+            position: absolute;
+            bottom: -25px;
+            font-size: 0.85rem;
+            color: #5A3B27;
+            font-weight: 600;
+            white-space: nowrap;
+        }
+        
+        .table-gradient thead {
+            background: #a54062;
+            color: #dfbeac;
+        }
+
+        .table-gradient th {
+            font-weight: 700;
+            padding: 15px;
+        }
+
+        .table-hover tbody tr {
+            transition: background-color 0.3s;
+        }
+
+        .table-hover tbody tr:hover {
+            background-color: rgba(165, 64, 98, 0.1);
+        }
+
+        .table-hover td {
+            color: #dfbeac;
+            padding: 12px 15px;
+            font-weight: 500;
+        }
+        .pie-chart {
+            padding: 30px;
+            text-align: center;
+        }
+        .pie {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            background: conic-gradient(
+                #667eea 0deg 180deg,
+                #764ba2 180deg 324deg,
+                #f093fb 324deg 360deg
+            );
+            margin: 0 auto 30px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+        }
+
+        .legend {
+            text-align: left;
+            max-width: 300px;
+            margin: 0 auto;
+        }
+
+        .legend-item {
+            display: flex;
+            align-items: center;
+            margin-bottom: 15px;
+            color: #dfbeac;
+        }
+
+        .legend-color {
+            width: 20px;
+            height: 20px;
+            border-radius: 4px;
+            margin-right: 10px;
+        }
+
+        .events-list {
+            padding: 20px;
+        }
+
+        .event-item {
+            background: rgba(223, 190, 172, 0.1);
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            border-left: 4px solid #431927;
+        }
+
+        .event-title {
+            font-size: 1.3rem;
+            font-weight: 700;
+            color: #dfbeac;
+            margin-bottom: 10px;
+        }
+
+        .event-item > div:not(.event-title):not(.event-stats) {
+            color: #dfbeac;
+            margin-bottom: 10px;
+            opacity: 0.9;
+        }
+
+        .event-stats {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            margin-top: 15px;
+        }
+
+        .event-stats span {
+            color: #dfbeac;
+            font-size: 0.9rem;
+        }
+
+        .badge {
+            padding: 5px 12px;
+            font-weight: 600;
+        }
+        
+        .metric-positive {
+            color: #28a745;
+            font-weight: 700;
+        }
+
+        .metric-text {
+            color: #dfbeac;
+            margin-top: 10px;
+        }
+
+        .card.dashboard-card {
+            background: #a54062;
+            margin-bottom: 20px;
+        }
+
+        .card.dashboard-card .card-title {
+            font-size: 1.2rem;
+            font-weight: 700;
+            color: #dfbeac;
+            margin-bottom: 20px;
+            border-bottom: 2px solid rgba(223, 190, 172, 0.3);
+            padding-bottom: 10px;
+        }
+
+        @media (max-width: 768px) {
+            .dashboard-header h1 {
+                font-size: 1.8rem;
+            }
+
+            .bar-chart {
+                height: 200px;
+            }
+
+            .event-stats {
+                flex-direction: column;
+                gap: 10px;
+            }
+        }
