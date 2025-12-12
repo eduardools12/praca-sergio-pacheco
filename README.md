@@ -1,54 +1,51 @@
-## 🏙️ Praça Sérgio Pacheco — Site Oficial
+🌐 Praça Sérgio Pacheco — Website Institucional
 
-Um site informativo e estiloso sobre a Praça Sérgio Pacheco, o lugar iconicão de Uberlândia pra cultura, lazer e eventos.
-
-Esse projeto exibe sobre a história da praça 
-
----
-
-## 🔥 O que tem aqui
-
-Esse site foi feito pra deixar tudo relacionado à praça fácil de achar:
-
-* 🏛️ **Início** — Boas-vindas e foco principal do site
-* 📜 **Sobre** — História, acessibilidade e espaços verdes
-* 📅 **Eventos** — O que tá chegando na praça
-* 💬 **Comentários/Feedback** — Feedback da galera
-* 📸 **Galeria** — Fotos da praça
-* 📞 **Contato** — E-mail, telefone e endereço físico da praça
-
-(Organizado de forma clean e com navegação simples) ([eduardools12.github.io][1])
+Website desenvolvido para apresentar informações essenciais sobre a Praça Sérgio Pacheco, com foco em clareza, acessibilidade e experiência do usuário.
+O projeto foi produzido em colaboração entre Sistemas de Informação e Arquitetura e Urbanismo, unindo visão técnica e espacial.
 
 
-## 🛠️ Tecnologias
+🎯 Propósito
 
-O site usa:
+Criar uma plataforma simples, responsiva e objetiva que facilite o acesso a:
 
-* HTML
-* CSS
-* Bootstrap
-* Imagens e galerias
+História da praça
+
+Eventos
+
+Galeria de imagens
+
+Informações de contato
+
+O design prioriza navegação intuitiva e acessível para usuários de todas as idades.
 
 
-## 🎯 Objetivo
+🧩 Processo de Criação
 
-Promover a Praça Sérgio Pacheco como espaço:
+O desenvolvimento seguiu princípios de Design Thinking, com etapas de:
 
-* De convivência e lazer
-* De cultura e eventos
-* Com informações úteis pra quem visita ou organiza ([eduardools12.github.io][1])
+Imersão: compreensão das necessidades do visitante
 
----
+Ideação: definição da estrutura e da navegação
 
-## 📍 Localização & Infos
+Prototipação: criação de layouts limpos e diretos
 
-A Praça Sérgio Pacheco é a maior praça de Uberlândia — cheia de espaço pra caminhada, eventos e encontros da galera. ([Wikipédia][2])
+Testes: ajustes de usabilidade e responsividade
 
----
+A contribuição do curso de Arquitetura garantiu uma leitura mais humana e contextual do espaço público.
 
-## 📫 Contato
 
-Se alguém quiser trocar ideia sobre o projeto:
+🛠️ Tecnologias Utilizadas
 
-📧 **[eduardodutraa12@gmail.com](mailto:contato@pracasergiopacheco.com)**
-📞 **(34) 99999-9999**
+HTML
+
+CSS
+
+Bootstrap
+
+A interface foi mantida minimalista para garantir rapidez, legibilidade e adaptação a diferentes dispositivos.
+
+
+🔗 Acesso ao Projeto
+
+Site publicado em GitHub Pages:
+👉 https://eduardools12.github.io/praca-sergio-pacheco/
