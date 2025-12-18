@@ -59,16 +59,7 @@ header {
 .hero-section {
     background: linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)),
                 url('img/topo.jpg');
-    background-size: cover;
-    background-position: center;
-    height: 400px;
-    margin-top: 60px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    color: #dfbeac;
-}
+
 
 .hero-section h1 {
     font-size: 3.5rem;
@@ -343,4 +334,4 @@ footer p {
         display: inline-block;
         margin-bottom: 20px;
     }
-}
+}}

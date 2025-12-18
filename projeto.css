@@ -85,16 +85,6 @@ header.scrolled {
   justify-content: flex-start;
 }
 
-.hero {
-  height: 40vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  padding-top: 70px;
-  color: #dfbeac;
-}
-
 .hero-content h2 {
   font-size: 3rem;
   margin-bottom: 10px;
@@ -107,13 +97,9 @@ header.scrolled {
 
 .hero-section {
   background: linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)),
+
             url('img/topo2.jpg');
-  background-size: cover;
-  background-position: center;
-  height: 330px;
-  margin-top: 0px;
-  display: flex;
-}
+
 
 .btn {
   display: inline-block;
@@ -286,4 +272,4 @@ footer {
 
 .footer p {
   font-weight: 500;
-}
+}}
