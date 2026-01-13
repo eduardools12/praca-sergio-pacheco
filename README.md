@@ -42,7 +42,7 @@ CSS
 
 Bootstrap
 
-A interface foi mantida minimalista para garantir rapidez, legibilidade e adaptação a diferentes dispositivos.
+A interface foi mantida minimalista para garantir rapidez e legibilidade.
 
 
 🔗 Acesso ao Projeto
